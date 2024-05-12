@@ -7,7 +7,8 @@ body {
 	background-repeat: no-repeat;
 }
 
-#cabecalho {
+/* MENU DE NAVEGAÇÃO SUPERIOR */
+#navegacao {
 	width: 100%;
 	height: 80px;
 	background-color: #303030;
@@ -17,7 +18,7 @@ body {
 	border-bottom: 1px solid #bababa;
 }
 
-	#cabecalho div a {
+	#navegacao div a {
 		font-family: 'inter';
 		font-size: 20px;
 		font-weight: 600;
@@ -25,7 +26,7 @@ body {
 		text-decoration: none;
 	}
 
-	#cabecalho div a:hover {
+	#navegacao div a:hover {
 		color: #CCCCCC;
 	}
 
@@ -36,7 +37,7 @@ body {
 		margin-left: 17%;
 	}
 
-	#cabecalho button {
+	#navegacao button {
 		margin-right: 25%;
 		background-color: #0C70F2;
 		border: 0;
@@ -52,7 +53,7 @@ body {
 		transition-duration: 0.5s; /* Define a duração da transição do efeito ao tirar o mouse de cima do botão, voltando ao estado natural do elemento */
 	}
 
-	#cabecalho button:hover {
+	#navegacao button:hover {
 		background-color: green;
 		transform: translateY(-4px);
 		transition-duration: 0.1s; /* Define a duração da transição do efeito ao passar o mouse por cima do botão */

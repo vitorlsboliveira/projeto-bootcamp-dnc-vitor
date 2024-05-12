@@ -7,7 +7,8 @@
 		<title>Bootcamp DNC</title>
 	</head>
 	<body>
-		<nav id="cabecalho">
+		<!-- MENU DE NAVEGAÇÃO -->
+		<nav id="navegacao">
 			<div id="menu">
 				<a href="">Home</a>
 				<a href="">Últimas edições</a>
@@ -15,6 +16,55 @@
 			</div>
 			<button>Login</button>
 		</nav>
-		<div style="height: 3200px;"></div>
+		<!-- CORPO DA PÁGINA -->
+		<div style="height: 3200px;">
+			<section>
+				<!-- CABEÇALHO -->
+				<header>
+					<h1>BOOTCAMP DNC</h1>
+					<h2>
+						Esse será um evento exclusivo para todos os alunos<br>
+						da <b>DNC</b>, que querem <span class="cor-fundo-invertida"><b>acelerar a carreira</b></span> com uma<br>
+						semana intensiva de conteúdo de mercado entre<br>
+						<span class="cor-fundo-invertida"><b>BACK-END, FRONT-END & BANCO DE DADOS</b></span>.
+					</h2>
+				</header>
+				<!-- FORMULÁRIO -->
+				<form action="">
+					<div class="form-group">
+						<label for="nome">Nome:</label>
+						<input type="text" placeholder="Insira seu nome aqui" id="nome">
+					</div>
+					<div class="form-group">
+						<label for="sobrenome">Sobrenome:</label>
+						<input type="text" placeholder="Insira seu nome aqui" id="sobrenome">
+					</div>
+					<div class="form-group">
+						<label>Área de interesse:</label>
+						<div class="checkbox-itens">
+							<input type="checkbox" value="frontend" id="frontend">
+							<label for="frontend">Front-end</label>
+							<input type="checkbox" value="backend" id="backend">
+							<label for="backend">Back-end</label>
+							<input type="checkbox" value="bancodedados" id="bancodedados">
+							<label for="bancodedados">Banco de dados</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail:</label>
+						<input type="email" placeholder="Insira seu e-mail aqui" id="email">
+					</div>
+					<div class="form-group">
+						<label for="telefone">Telefone:</label>
+						<input type="text" placeholder="(99) 99999-9999" id="telefone">
+					</div>
+					<div class="form-group">
+						<label for="frase-criativa">Insira uma frase criativa aqui:</label>
+						<input type="text" placeholder="Qual é a sua frase?" id="frase-criativa">
+					</div>
+					<input type="button" value="Cadastrar">
+				</form>
+			</section>
+		</div>
 	</body>
 </html>
