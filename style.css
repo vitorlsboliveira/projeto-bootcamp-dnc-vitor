@@ -12,7 +12,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(180deg, rgba(12, 112, 242, 0.5), 12.91%, rgba(12, 112, 242, 0) 19.84%), #303030;
+	background: linear-gradient(180deg, rgba(12, 112, 242, 0.5), 23.91%, rgba(12, 112, 242, 0) 36.84%), #303030;
 	background-repeat: no-repeat;
 }
 
@@ -78,6 +78,7 @@ section {
 	margin-bottom: 30px;
 }
 
+	/* CABEÇALHO */
 	header {
 		color: white;
 		font-family: var(--fonte-padrao);
@@ -102,14 +103,14 @@ section {
 			padding: 5px;
 		}
 
-		/* FORMULÁRIO */
-		form {
-			color: white;
-			font-family: var(--fonte-padrao);
-			font-size: 30px;
-			font-weight: 600;
-			width: 600px;
-		}
+	/* FORMULÁRIO */
+	form {
+		color: white;
+		font-family: var(--fonte-padrao);
+		font-size: 30px;
+		font-weight: 600;
+		width: 600px;
+	}
 
 		.form-group {
 			display: flex;
@@ -179,3 +180,93 @@ section {
 			transition-duration: 0.1s;
 			box-shadow: 10px 10px 10px #000000;
 		}
+
+	/* RODAPÉ */
+	footer {
+		width: 100%;
+		background-color: var(--azul-dnc);
+		margin-top: 230px;
+	}
+
+		footer #linha1 {
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+
+			footer h5 {
+				text-align: center;
+				color: white;
+				font-family: var(--fonte-padrao);
+				font-weight: 800;
+				font-size: 18px;
+				background-color: var(--preto-dnc);
+				border-radius: 8px;
+				padding: 9px 9px 9px 9px;
+				margin-bottom: 10px;
+			}
+
+			footer nav {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 300px;
+			}
+
+			footer ul {
+				list-style: none;
+				margin: 0; /* Retira a margem externa automática da lista */
+				padding: 0; /* Retira a margem interna automática da lista */
+			}
+
+			footer ul li {
+				text-align: center;
+				color: white;
+				font-family: var(--fonte-padrao);
+				font-weight: 600;
+				font-size: 18px;
+				margin: 20px 0 20px 0;
+			}
+
+			footer ul li a {
+				color: white;
+				text-decoration: none;
+			}
+
+			footer ul li a:hover {
+				cursor: pointer;
+				color: var(--cinza-hover);
+			}
+
+			footer #endereco {
+				font-family: var(--fonte-padrao);
+				font-weight: 600;
+				font-size: 18px;
+				color: white;
+				width: 22%;
+				text-align: center;
+			}
+
+		footer #linha2 {
+			display: flex;
+			justify-content: center;
+		}
+
+			footer #linha2 a {
+				color: white;
+				font-family: var(--fonte-padrao);
+				font-size: 18px;
+				font-weight: 600;
+				margin: 27px 0 27px 0;
+				text-decoration: none;
+				padding: 0 10px 0 10px;
+			}
+
+			footer #linha2 a:first-child {
+				border-right: 2px solid white;
+			}
+
+			footer #linha2 a:hover {
+				cursor: pointer;
+				color: var(--cinza-hover);
+			}
